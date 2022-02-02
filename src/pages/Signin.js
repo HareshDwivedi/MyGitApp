@@ -57,9 +57,9 @@ const Signin = () => {
                 <Col lg={6} className='offset-lg-3 mt-5'>
                     <Card>
                         <Form onSubmit={handleSubmit}>
-                            <CardHeader className=''>Signin here</CardHeader>
+                            <CardHeader className=''>Sign in here</CardHeader>
                             <CardBody>
-                                <FormGroup row>
+                                <FormGroup row className="my-3">
                                     <Label for='email' sm={3}>
                                         Email
                                     </Label>
@@ -74,7 +74,7 @@ const Signin = () => {
                                         />
                                     </Col>
                                 </FormGroup>
-                                <FormGroup row>
+                                <FormGroup row className="my-3">
                                     <Label for='password' sm={3}>
                                         Password
                                     </Label>
